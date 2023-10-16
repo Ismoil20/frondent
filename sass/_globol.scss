@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-image: url(../imgs/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  border: none;
+}
