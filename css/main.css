@@ -94,11 +94,9 @@ button {
   color: #4c545c;
   text-align: center;
   font-size: 28px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: -0.457px;
-  max-width: 311px;
+  max-width: 511px;
 }
 .header_contact p {
   color: #9eabb2;
