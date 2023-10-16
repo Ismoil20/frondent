@@ -96,7 +96,7 @@ button {
   font-size: 28px;
   font-weight: 600;
   letter-spacing: -0.457px;
-  max-width: 511px;
+  max-width: 311px;
 }
 .header_contact p {
   color: #9eabb2;
@@ -106,7 +106,7 @@ button {
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.12px;
   margin-top: 1.6rem;
-  max-width: 511px;
+  max-width: 311px;
 }
 
 .header_contact_img_text {
@@ -114,6 +114,9 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.header_contact_img_text .header_contact_img {
+  max-width: 312px;
 }
 .header_contact_img_text .header_contact_text {
   display: flex;
