@@ -9,11 +9,15 @@ html {
 img {
   max-width: 100%;
 }
-body {
-  background-image: url(../imgs/bg-header-desktop.png);
+header {
+  background-image: url(../imgs/bg-header-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 button {
   border: none;
 }
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
