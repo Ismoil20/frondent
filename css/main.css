@@ -49,6 +49,10 @@ button {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar_img {
   display: flex;
   flex-direction: column;
@@ -261,6 +265,56 @@ main .main_content_text_2 p {
   letter-spacing: 0.135px;
   margin-top: 1.6rem;
   margin-bottom: 4.6rem;
+}
+
+footer {
+  background-color: #9eabb2;
+  opacity: 0.7;
+  margin-top: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+footer .footer_contact_img {
+  max-width: 311px;
+  margin-bottom: 4rem;
+  margin-top: 5.2rem;
+}
+
+.footer_logo .footer_logo_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer_logo .footer_logo_text a {
+  color: #4c545c;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+}
+.footer_logo .footer_logo_text a:hover {
+  color: #26bba4;
+}
+.footer_logo .footer_icons {
+  font-size: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.footer_logo .footer_icons i {
+  color: #4c545c;
+}
+.footer_logo .footer_icons i:hover {
+  color: blue;
 }
 
 /*# sourceMappingURL=main.css.map */
